@@ -4,8 +4,18 @@
 import express from "express";
 import path from "path";
 import open from "open";
+
+import webpack  from 'webpack';
+import webpackMiddleware from 'webpack-dev-middleware'
+import webpackConfig from '../webpack.config.dev';
+
+
 const port = 3333;
 const app = express();
+
+const compiler = webpack(webpackConfig);
+
+app.use(webpackMiddleware(compiler));
 
 
 app.get('*', function(req, res) {
