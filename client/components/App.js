@@ -9,7 +9,8 @@ class App extends React.Component {
     render() {
         return(
             <div className="row">
-                <h1>hello from react</h1>
+                <h1>hello from react hgbjgjhjkhjkhkjhjhjghjk</h1>
+                <p>hfhghjghjghgjhgjhgukg</p>
             </div>
         );
     }
