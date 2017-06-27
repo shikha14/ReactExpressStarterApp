@@ -11,7 +11,7 @@ import webpackHotMiddleware from 'webpack-hot-middleware'
 import webpackConfig from '../webpack.config.dev';
 
 
-const port = 3333;
+const port = 3000;
 const app = express();
 
 const compiler = webpack(webpackConfig);

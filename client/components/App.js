@@ -3,14 +3,15 @@
  */
 
 import React from 'react';
-
+import Header from './Header';
+import Main from './Main';
 
 class App extends React.Component {
     render() {
         return(
-            <div className="row">
-                <h1>hello from react hgbjgjhjkhjkhkjhjhjghjk</h1>
-                <p>hfhghjghjghgjhgjhgukg</p>
+            <div>
+                <Header />
+                <Main />
             </div>
         );
     }
